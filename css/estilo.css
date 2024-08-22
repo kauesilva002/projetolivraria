@@ -127,16 +127,31 @@ fieldset.campo.grupo{
     display: inline-block;
 
 }
-.flex-container {
+.destaques
+{   
+    width: 100%;
+}
+.destaques ul{
+    
     display: flex;
-    width:150;
-    height: auto;
-  }
-  .linha{
-    display: flex;
-  }
-  .imagem-grid{
+    flex-wrap: wrap;
+} 
+li {
+    list-style-type: none;
+}
+
+img{ margin: 0 auto;
+   
+}
+.destaques ul li{
+    width: 50%;
+
+}
+span {
+    text-align: center;
+}
+.destaques ul li a{
     display: flex;
     flex-direction: column;
-
-  }
+    justify-content: center;
+}
